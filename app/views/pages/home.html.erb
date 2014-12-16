@@ -1,7 +1,8 @@
 <div class="jumbotron center">
-     <h1>Welcome to my app!</h1>
+     <h1>Welcome!</h1>
      <% if user_signed_in? %>
-          Welcome to Our Members Area
+         <h4> Welcome to Our Members Area. </h4>
+          <p> <h4><i> Please Visit our Pins section to create pins. Just add /pins to the url to go to the pin section.  The link is currently broken. </i> </h4></p>
      <% else %>
        <p>
          <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
